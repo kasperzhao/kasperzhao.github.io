@@ -440,6 +440,20 @@ h1 {
 .paper-links a::after { content: "]"; margin-left: 1px; }
 .paper-links a:hover { color: var(--accent); border-color: var(--accent); }
 
+.visitor-widget {
+  width: min(350px, 100%);
+  min-height: 180px;
+  margin: 12px auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.visitor-widget iframe,
+.visitor-widget canvas,
+.visitor-widget img { max-width: 100% !important; }
+
 footer {
   padding: 16px 0 21px;
   display: flex;
