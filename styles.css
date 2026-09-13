@@ -5,6 +5,7 @@
   --accent: #1772d0;
   --accent-dark: #145ca8;
   --accent-light: #c8dcf1;
+  --link-hover: #f09228;
   --paper: #ffffff;
   --font: "Lato", Verdana, Helvetica, sans-serif;
 }
@@ -52,7 +53,7 @@ nav a {
   font-size: 12px;
   font-weight: 500;
 }
-nav a:hover { color: var(--accent); }
+nav a:hover { color: var(--link-hover); }
 
 .hero {
   padding: 0 16px;
@@ -92,7 +93,7 @@ h1 {
 .bio a, .bio strong { color: var(--ink); }
 .bio strong { font-weight: 700; }
 .bio a { color: var(--accent); font-weight: 400; }
-.bio a:hover { color: var(--accent-dark); text-decoration: underline; }
+.bio a:hover { color: var(--link-hover); text-decoration: underline; }
 
 .social-links {
   margin-top: 10px;
@@ -108,7 +109,7 @@ h1 {
   font-size: inherit;
   font-weight: 400;
 }
-.social-links a:hover { color: #f09228; }
+.social-links a:hover { color: var(--link-hover); }
 .social-separator {
   margin: 0 8px;
   color: var(--muted);
@@ -174,7 +175,7 @@ h1 {
 }
 .news-item strong { font-weight: 600; }
 .news-item a { color: var(--accent); }
-.news-item a:hover { color: var(--accent-dark); text-decoration: underline; }
+.news-item a:hover { color: var(--link-hover); text-decoration: underline; }
 
 .publications-section { padding-bottom: 8px; }
 .contribution-note {
@@ -252,7 +253,7 @@ h1 {
 .paper-links a { color: var(--accent); font-size: 14px; }
 .paper-links a::before { content: "["; }
 .paper-links a::after { content: "]"; }
-.paper-links a:hover { color: var(--accent-dark); text-decoration: underline; }
+.paper-links a:hover { color: var(--link-hover); text-decoration: underline; }
 
 .visitor-widget {
   width: min(350px, 100%);
