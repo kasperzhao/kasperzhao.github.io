@@ -176,6 +176,11 @@ h1 {
 .news-item a:hover { color: var(--accent-dark); text-decoration: underline; }
 
 .publications-section { padding-bottom: 8px; }
+.publication-list {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
 .contribution-note {
   margin: 0 0 7px;
   color: var(--muted);
@@ -185,19 +190,22 @@ h1 {
 .publication {
   padding: 8px 0;
   display: grid;
-  grid-template-columns: 21% 79%;
+  grid-template-columns: 190px minmax(0, 1fr);
   align-items: center;
-  gap: 0;
+  gap: 8px;
 }
 .publication:first-of-type { padding-top: 2px; }
 .publication:last-of-type { padding-bottom: 2px; }
-.paper-visual { position: relative; padding: 10px; }
+.paper-visual { position: relative; padding: 8px; }
 .paper-visual img {
   display: block;
   width: 100%;
   height: auto;
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
 }
 .paper-info { min-width: 0; padding: 6px; }
 .paper-info h3 {
@@ -302,7 +310,7 @@ footer p { margin: 0; }
   .portrait-wrap { width: min(55%, 220px); justify-self: center; }
   .section { padding: 10px 0 12px; }
   .publication { grid-template-columns: 1fr; gap: 12px; }
-  .paper-visual { width: min(100%, 420px); }
+  .paper-visual { width: min(100%, 320px); margin: 0 auto; }
 }
 
 @media (max-width: 500px) {
