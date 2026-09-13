@@ -116,9 +116,9 @@ h1 {
   grid-column: 2;
   grid-row: 1;
   width: 100%;
-  max-width: none;
+  max-width: 225px;
   margin: 0;
-  padding: 20px;
+  padding: 16px;
   justify-self: end;
 }
 .portrait-backdrop { display: none; }
