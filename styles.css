@@ -57,7 +57,7 @@ nav a:hover { color: var(--accent); }
 .hero {
   padding: 0 16px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 165px;
+  grid-template-columns: minmax(0, 1fr) 150px;
   align-items: center;
   gap: 24px;
 }
@@ -116,7 +116,7 @@ h1 {
   grid-column: 2;
   grid-row: 1;
   width: 100%;
-  max-width: 165px;
+  max-width: 150px;
   margin: 0;
   padding: 0;
   justify-self: end;
