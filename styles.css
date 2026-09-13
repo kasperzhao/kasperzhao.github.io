@@ -184,14 +184,14 @@ h1 {
   font-style: italic;
 }
 .publication {
-  padding: 5px 0;
+  padding: 3px 0;
   display: grid;
   grid-template-columns: 21% 79%;
   align-items: center;
   gap: 0;
 }
-.publication:first-of-type { padding-top: 1px; }
-.publication:last-of-type { padding-bottom: 1px; }
+.publication:first-of-type { padding-top: 0; }
+.publication:last-of-type { padding-bottom: 0; }
 .paper-visual { position: relative; padding: 10px; }
 .paper-visual img {
   display: block;
