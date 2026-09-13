@@ -188,10 +188,9 @@ h1 {
   grid-template-columns: 21% 79%;
   align-items: center;
   gap: 0;
-  border-bottom: 1px solid #eeeeee;
 }
 .publication:first-of-type { padding-top: 2px; }
-.publication:last-of-type { padding-bottom: 2px; border-bottom: 0; }
+.publication:last-of-type { padding-bottom: 2px; }
 .paper-visual { position: relative; padding: 10px; }
 .paper-visual img {
   display: block;
@@ -200,24 +199,6 @@ h1 {
   border: 1px solid #eeeeee;
   border-radius: 4px;
 }
-.venue {
-  position: absolute;
-  top: 15px;
-  left: 5px;
-  z-index: 2;
-  margin: 0;
-}
-.venue-name {
-  padding: 3px 7px;
-  display: inline-block;
-  color: #fff;
-  background: var(--accent-dark);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: .04em;
-  line-height: 1.2;
-}
-.venue.accepted .venue-name { background: #9d3f39; }
 .paper-info { min-width: 0; padding: 6px; }
 .paper-info h3 {
   margin: 0 0 4px;
@@ -258,6 +239,12 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
+}
+.publication-award {
+  color: #d00000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
 }
 .paper-links { margin-top: 4px; display: flex; flex-wrap: wrap; gap: 7px; }
 .paper-links a { color: var(--accent); font-size: 14px; }
