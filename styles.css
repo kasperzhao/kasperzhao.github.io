@@ -98,22 +98,18 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 11px 22px;
+  gap: 0;
+  font-size: 14px;
 }
 .social-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
   color: var(--accent);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: inherit;
+  font-weight: 400;
 }
-.social-links a:hover { color: var(--accent-dark); }
-.contact-icon {
-  width: 15px;
-  height: 15px;
-  flex: 0 0 15px;
-  fill: currentColor;
+.social-links a:hover { color: #f09228; }
+.social-separator {
+  margin: 0 8px;
+  color: var(--muted);
 }
 
 .portrait-wrap {
@@ -313,8 +309,7 @@ footer p { margin: 0; }
 @media (max-width: 500px) {
   nav a:first-child { display: none; }
   h1 { font-size: 32px; }
-  .social-links { justify-content: flex-start; }
-  .contact-email { flex-basis: 100%; }
+  .social-links { justify-content: center; row-gap: 4px; }
   .news-item { display: block; }
   .news-item time { display: block; margin-bottom: 1px; }
   .section-heading h2 { font-size: 21px; }
