@@ -1,6 +1,6 @@
 :root {
-  --ink: #25282d;
-  --muted: #646b73;
+  --ink: #000000;
+  --muted: #000000;
   --line: #e5e7ea;
   --accent: #1772d0;
   --accent-dark: #145ca8;
@@ -86,7 +86,7 @@ h1 {
   font-style: italic;
   text-align: center;
 }
-.bio { margin: 0 0 6px; color: #4d545c; }
+.bio { margin: 0; color: var(--ink); }
 .bio:last-of-type { margin-bottom: 0; }
 .bio a, .bio strong { color: var(--ink); font-weight: 600; }
 .bio a { color: var(--accent); }
@@ -180,15 +180,15 @@ h1 {
   font-style: italic;
 }
 .publication {
-  margin: 10px 0;
+  margin: 6px 0;
   display: grid;
-  grid-template-columns: 24% 76%;
+  grid-template-columns: 21% 79%;
   align-items: center;
   gap: 0;
 }
 .publication:first-of-type { margin-top: 0; }
 .publication:last-of-type { margin-bottom: 0; }
-.paper-visual { position: relative; padding: 16px; }
+.paper-visual { position: relative; padding: 10px; }
 .paper-visual img {
   display: block;
   width: 100%;
@@ -197,8 +197,8 @@ h1 {
 }
 .venue {
   position: absolute;
-  top: 21px;
-  left: 11px;
+  top: 15px;
+  left: 5px;
   z-index: 2;
   margin: 0;
 }
@@ -213,7 +213,7 @@ h1 {
   line-height: 1.2;
 }
 .venue.accepted .venue-name { background: #9d3f39; }
-.paper-info { min-width: 0; padding: 8px; }
+.paper-info { min-width: 0; padding: 6px; }
 .paper-info h3 {
   margin: 0 0 4px;
   font-size: 14px;
@@ -222,7 +222,7 @@ h1 {
 }
 .authors {
   margin: 0 0 4px;
-  color: #59616a;
+  color: var(--ink);
   font-size: 14px;
   font-style: italic;
 }
@@ -234,9 +234,9 @@ h1 {
 }
 .authors sup { margin-left: 1px; color: var(--accent-dark); font-size: .7em; }
 .paper-summary {
-  margin: 6px 0 5px;
-  padding-left: 9px;
-  color: #525a63;
+  margin: 4px 0;
+  padding-left: 8px;
+  color: var(--ink);
   border-left: 2px solid #d9dde1;
   font-size: 14px;
   line-height: 1.45;
@@ -244,12 +244,12 @@ h1 {
 .paper-summary::before {
   content: "TL;DR:";
   margin-right: 5px;
-  color: #444b53;
+  color: var(--ink);
   font-weight: 700;
 }
 .venue-full {
   margin: 3px 0 0;
-  color: #424950;
+  color: var(--ink);
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
