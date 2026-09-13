@@ -120,6 +120,7 @@ h1 {
   margin: 0;
   padding: 0;
   justify-self: end;
+  transform: translateY(12px);
 }
 .portrait-backdrop { display: none; }
 .portrait {
@@ -310,6 +311,7 @@ footer p { margin: 0; }
   nav { gap: 18px; }
   .hero { padding: 16px 0; grid-template-columns: 1fr; gap: 15px; }
   .hero-copy, .portrait-wrap { grid-column: auto; grid-row: auto; padding: 0; }
+  .portrait-wrap { transform: none; }
   .portrait-wrap { width: min(55%, 220px); justify-self: center; }
   .section { padding: 10px 0 12px; }
   .publication { grid-template-columns: 1fr; gap: 12px; }
