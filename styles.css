@@ -93,7 +93,7 @@ h1 {
 .bio a, .bio strong { color: var(--ink); }
 .bio strong { font-weight: 700; }
 .bio a { color: var(--accent); font-weight: 400; }
-.bio a:hover { color: var(--link-hover); text-decoration: underline; }
+.bio a:hover { color: var(--link-hover); }
 
 .social-links {
   margin-top: 10px;
@@ -175,7 +175,7 @@ h1 {
 }
 .news-item strong { font-weight: 600; }
 .news-item a { color: var(--accent); }
-.news-item a:hover { color: var(--link-hover); text-decoration: underline; }
+.news-item a:hover { color: var(--link-hover); }
 
 .publications-section { padding-bottom: 8px; }
 .contribution-note {
@@ -253,7 +253,7 @@ h1 {
 .paper-links a { color: var(--accent); font-size: 14px; }
 .paper-links a::before { content: "["; }
 .paper-links a::after { content: "]"; }
-.paper-links a:hover { color: var(--link-hover); text-decoration: underline; }
+.paper-links a:hover { color: var(--link-hover); }
 
 .visitor-widget {
   width: min(350px, 100%);
