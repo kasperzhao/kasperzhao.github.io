@@ -240,11 +240,11 @@ h1 {
   font-weight: 600;
   font-style: italic;
 }
-.publication-status { font-style: normal; }
+.publication-status { font-style: italic; }
 .publication-award {
   color: #d00000;
   font-size: 15px;
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
 }
 .paper-links { margin-top: 4px; display: flex; flex-wrap: wrap; gap: 7px; }
