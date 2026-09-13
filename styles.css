@@ -159,9 +159,9 @@ h1 {
 }
 .honor-list { margin: 0; padding: 0; list-style: none; }
 .news-item {
-  padding: 2px 0 2px 2px;
+  padding: 0 0 0 2px;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .news-item::marker { color: var(--muted); }
 .news-item time {
