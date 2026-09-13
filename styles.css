@@ -240,6 +240,7 @@ h1 {
   font-weight: 600;
   font-style: italic;
 }
+.publication-status { font-style: normal; }
 .publication-award {
   color: #d00000;
   font-size: 15px;
