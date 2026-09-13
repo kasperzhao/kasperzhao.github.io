@@ -255,12 +255,12 @@ h1 {
 
 .honor-item {
   position: relative;
-  padding: 3px 0 3px 13px;
+  padding: 0 0 0 13px;
   display: grid;
   grid-template-columns: 67px minmax(0, 1fr);
   gap: 8px;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .honor-item::before {
   content: "•";
