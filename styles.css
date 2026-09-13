@@ -164,9 +164,7 @@ h1 {
 }
 .news-item::marker { color: var(--muted); }
 .news-item time {
-  display: inline-block;
-  width: 69px;
-  margin-right: 7px;
+  display: inline;
   color: var(--ink);
   font-size: 14px;
   font-weight: 400;
@@ -322,7 +320,6 @@ footer p { margin: 0; }
   nav a:first-child { display: none; }
   h1 { font-size: 32px; }
   .social-links { justify-content: center; row-gap: 4px; }
-  .news-item time { width: 67px; margin-right: 5px; }
   .section-heading h2 { font-size: 21px; }
   footer { display: block; }
   footer p + p { margin-top: 3px; }
