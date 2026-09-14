@@ -187,19 +187,25 @@ h1 {
 .publication {
   padding: 3px 0;
   display: grid;
-  grid-template-columns: 21% 79%;
+  grid-template-columns: 190px minmax(0, 1fr);
   align-items: center;
   gap: 0;
 }
 .publication:first-of-type { padding-top: 0; }
 .publication:last-of-type { padding-bottom: 0; }
-.paper-visual { position: relative; padding: 10px; }
+.paper-visual {
+  min-height: 100px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .paper-visual img {
   display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
+  width: 180px;
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: contain;
 }
 .paper-info { min-width: 0; padding: 6px; }
 .paper-info h3 {
