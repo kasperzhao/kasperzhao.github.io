@@ -1,5 +1,5 @@
 # kasperzhao.github.io
 
-Personal academic homepage of Yulin Zhao.
+Personal website of Yulin Zhao.
 
 Visit: https://kasperzhao.github.io/
