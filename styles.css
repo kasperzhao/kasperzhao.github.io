@@ -218,7 +218,7 @@ h1 {
   margin: 0 0 4px;
   color: var(--ink);
   font-size: 14px;
-  font-style: italic;
+  font-style: normal;
 }
 .authors strong {
   color: var(--ink);
